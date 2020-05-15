@@ -1,0 +1,175 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+.header{
+	background: white;
+}
+.wrapper{
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 10px 0px 20px;
+
+}
+.logo{
+width: 20%;
+float: left;
+}
+.logo img{
+width: 100%;
+}
+.menu{
+width: 70%;
+float: right;
+}
+.menu ul li{
+	float: left;
+	padding: 0px 30px;
+	list-style: none;
+
+
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #667175;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+}
+ .menu ul li a:hover{
+ 	text-decoration: underline;
+ }
+ /*header end*/
+
+/*banner start*/
+.banner{
+
+}
+.bannerbg{
+background-image:url(architecture-1867187_1280.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center  ; 
+
+} 
+.home{
+width: 30%;
+background: ;
+padding: 30px 25px 25px;
+margin-top: 80px;
+margin-bottom: 200px;
+background: rgb(60, 64, 76,.5);
+}
+.home h1{
+font-family: sans-serif;
+font-size:25px ;
+font-weight: 400;
+margin-top: 0px;
+margin-bottom: 15px;
+color: white;
+text-transform: uppercase;
+
+}
+.home p{
+font-family: sans-serif;
+font-size:20px ;
+font-weight: 400;
+margin-top: 0px;
+margin-bottom: 20px;
+line-height: 25px;
+color: white;
+
+}
+
+.home button{
+	font-family: sans-serif;
+	color: white;
+	width: 120px;
+    height: 35px;
+  background: rgb(60, 64, 76,.9);
+    border:none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/*banner end*/
+
+/*service start*/
+.singleitem{
+width: 30%;
+border: 1px solid red;
+float: left;
+margin: 40px 18px;
+text-align: center;
+}
+.singleitem h2{
+font-family: sans-serif;
+font-size:30px ;
+font-weight: 400;
+margin-top: 0px;
+margin-bottom: 10px;
+color:#C8C6C5;
+
+}
+
+.singleitem img{
+	
+width: 100%;
+}
+.singleitem p{
+	
+font-family: sans-serif;
+font-size:14px ;
+font-weight: 400;
+line-height: 25px;
+margin-top: 0px;
+margin-bottom: 15px;
+color:#586066;
+}
+.singleitem button{
+font-family: sans-serif;
+font-size:14px ;
+font-weight: 400;
+color:#586066;
+color: white;
+border-radius: 5px;
+border: none;
+ background:#3C5677;
+padding: 8px 20px;
+cursor: pointer;
+}
+/*service end*/
+
+/*Footer start*/
+
+.copyright{
+text-align: center;
+}
+.copyright h3{
+	color:#586066;
+	font-family: sans-serif;
+	font-size: 15px;
+	
+}
+.copyright p{
+	color:#586066;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.footer{
+	text-align: center;
+}
+.footerlogo img{
+	height: 30px;
+	width: 30px;
+	
+}
+/*Footer end*/
